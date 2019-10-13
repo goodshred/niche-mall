@@ -66,8 +66,16 @@ export default {
                 {
                     icon: 'el-icon-shopping-cart-2',
                     index: 'table',
-                    title: '商家管理'
-                },
+                    title: '商家管理',
+                    subs: [
+                        {
+                            index: 'access-path1',
+                            title: '商家详情'
+                        },
+                        {
+                            index: 'access-path2',
+                            title: '商家管理',
+                }]},
                 {
                     icon: 'el-icon-delete',
                     index: 'tabs',
